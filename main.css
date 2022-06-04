@@ -11,13 +11,21 @@ body{
     width: 100%;
     height: 900px;
 }
-.logo-adjust{
+.container-logo{
     position: absolute;
-    top: 54px;
-    left: 80px;
+    top: 0;
+    padding: 10px;
+}
+.logotype{
+    position: relative;
+    width: 25%;
+    margin: 3px 60px;
+}
+.logo-adjust{
+    position: relative;
     color: papayawhip;
-    font-size: 35px;
-    margin: 10px auto;
+    font-size: 30px;
+    margin: 10px 11px;
     
 }
 .container-navadjust{
