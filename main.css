@@ -1,0 +1,63 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*----Ajuste cabeçalho -------------*/
+#container-headeradjust{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+.capaimgadjust{
+    width: 100%;
+    height: 900px;
+}
+.logo-adjust{
+    position: absolute;
+    top: 54px;
+    left: 80px;
+    color: papayawhip;
+    font-size: 35px;
+    margin: 10px auto;
+    
+}
+.container-navadjust{
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    margin: 0 auto;
+}
+.navlistadjust{
+    display: inline-flex;
+    position: relative;
+}
+.navlistadjust li{
+    margin: 5px 10px;
+    font-size: 30px;
+    color: black;
+    padding: 3px;
+    border: 3px solid gray;
+    background: lightgrey;
+    position: relative;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.sublistadjust{
+    padding: 3px;
+    margin: 1px auto;
+    position: fixed;
+    display: block;
+}
+.subitemlista .sublistadjust{
+    display: none;
+}
+.subitemlista:hover .sublistadjust{
+    display: block;
+    cursor: pointer;
+}
+
+
