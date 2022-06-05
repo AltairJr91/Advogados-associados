@@ -1,5 +1,6 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
+    background:linear-gradient(palegoldenrod,LightGoldenrodYellow);
 }
 /*----Ajuste cabeçalho -------------*/
 #container-headeradjust{
@@ -50,6 +51,9 @@ body{
     cursor: pointer;
     
 }
+li:hover {
+    color: goldenrod;
+}
 a{
     text-decoration: none;
     color: inherit;
@@ -57,7 +61,7 @@ a{
 .sublistadjust{
     padding: 3px;
     margin: 1px auto;
-    position: fixed;
+    position: absolute;
     display: block;
 }
 .subitemlista .sublistadjust{
@@ -67,5 +71,136 @@ a{
     display: block;
     cursor: pointer;
 }
+/*----Ajuste Layout Main-----*/
 
+#valoresadjustdiv{
+    position: relative;
+    width: 95%;
+    margin: 100px 10px;
+}
+.cointainer_valorestxt{
+    font-size: 22px;
+    position: relative;
+    margin: 10px 70px;
+}
+.cointainer_valorestxt h1{
+    font-size: 27px;
+    font-weight: 600;
+    margin: 10px auto;
+}
+.cointainer_valorestxt p{
+    margin: 5px;
+}
+.valoresimgadjust{
+    position: absolute;
+    width: 25%;
+    right: 0;
+    top: -51px;
+    transition: 1s;
+    box-shadow: 2px 1px 0 0;
+}
+#container_quemsomos{
+    position: relative;
+    width: 95%;
+    font-size: 21px;
+    margin-top: 20%;
+    text-align: end;
+}
+#container_quemsomos h1{
+    font-size: 27px;
+    font-weight: 600;
+    margin: 10px auto;
+    
+}
+#container_quemsomos p {
+    margin: 5px;
+    
+}
+.adjust_img_quemsomos{
+    width: 24%;
+    left: 70px;
+    position: absolute;
+    top: -56px;
+    box-shadow: 0 10px 5px 0;
+}
+#adj_div_atendimento{
+    position: relative;
+    width: 95%;
+    margin-top: 17%;
+}
+#Atendimento_adj{
+    font-size: 20px;
+    position: relative;
+    margin: 140px 70px;
+}
+#Atendimento_adj h1{
+    font-size: 27px;
+    font-weight: 600;
+    margin: 10px auto;
+}
+#Atendimento_adj p {
+    margin: 5px;
+}
+.atd_perso{
+    position: absolute;
+    right: 0;
+    top: -90%;
+    width: 30%;
+    box-shadow: 0 10px 5px 0;
+}
+#adj_reuniao{
+    position: relative;
+    width: 95%;
+    font-size: 21px;
+    margin-top: 17%;
+}
+.ambiente_reuniao{
+    font-size: 20px;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    top: 100px;
 
+}
+.ambiente_reuniao h1{
+    font-size: 27px;
+    font-weight: 600;
+}
+.ambiente_reuniao p {
+    margin:5px;
+}
+.adj_img_reuniao{
+    width: 40%;
+    position: relative;
+    margin: 10px 70px;
+    box-shadow: 5px 0 0 0;
+}
+#ajuste_rodape {
+    position: relative;
+    width: 95%;
+    margin: 100px 10px;
+}
+.divmapa{
+
+}
+.adj_map{
+    border: 0;
+    width: 15%;
+    height: 200px;
+}
+.adj_fotopredio{
+    width: 100%;
+    position: absolute;
+    left: 25%;
+    top: 20%;
+}
+.fotopredio{
+    width: 30%;
+}
+.adj_infosend{
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+}
