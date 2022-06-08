@@ -173,36 +173,36 @@ a{
     width: 40%;
     position: relative;
     margin: 10px 70px;
-    box-shadow: 5px 0 0 0;
+    box-shadow: 5px 5px 0 0;
 }
 /*------------ajuste rodape-----------*/
 #ajuste_rodape {
     position: relative;
     width: 95%;
     margin: 150px 10px;
+    border-top: 3px solid goldenrod;
 }
 .adj_map{
     border: 0;
-    width: 15%;
+    width: 10%;
     height: 200px;
     box-shadow: 5px 5px 0 0;
 }
 .adj_fotopredio{
-    width: 100%;
     position: absolute;
-    left: 24%;
-    top: 0%;
+    left: 20%;
+    top: 1%;
     
 }
 .fotopredio{
-    width: 15%;
+    width: 28%;
     box-shadow: 5px 5px 0 0;
 }
 .adj_infosend{
     font-size: 20px;
     text-align: center;
     position: absolute;
-    top: 0;
+    top: 5px;
     right: 10%;
 }
 .adj_infosend::first-line{
@@ -222,7 +222,11 @@ a{
 }
 .container-logo-foot{
     position: absolute;
-    top: 0;
+    top: 5px;
     padding: 10px;
     left: 45%;
+}
+.copyright{
+    position: absolute;
+    bottom: -135px;
 }
